@@ -1,0 +1,42 @@
+html{
+    background-color: rgb(50, 68, 93);
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 500px;
+}
+
+input{
+    margin-bottom: 25px;
+    text-align: center;
+    width: 250px;
+    height: 40px;
+    font-size: 30px;
+}
+
+button{
+    width: 250px;
+    padding: 12px;
+    margin-bottom: 3px;
+}
+
+#results-div{
+    padding: 15px;
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.valid {
+    color: green;
+}
+
+.invalid {
+    color: red;
+}
